@@ -15,7 +15,7 @@ jobs:
         run: npm ci
       - name: build
         working-directory: ./my-lib
-        run: npm build
+        run: npm run build
       - name: test
         working-directory: ./my-lib
         run: npm test
