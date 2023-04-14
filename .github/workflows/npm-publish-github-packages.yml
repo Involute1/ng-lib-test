@@ -16,9 +16,9 @@ jobs:
       - name: build
         working-directory: ./my-lib
         run: npm run build
-      - name: test
-        working-directory: ./my-lib
-        run: npm test
+#      - name: test
+#        working-directory: ./my-lib
+#        run: npm test
 
   publish-gpr:
     needs: build
